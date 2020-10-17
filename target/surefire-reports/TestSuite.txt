@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 0.429 s <<< FAILURE! - in TestSuite
+setUpTest(com.MyTest.LoginTest)  Time elapsed: 0.272 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeMethod on method setUpTest but has not been marked @Optional or defined
+
+
